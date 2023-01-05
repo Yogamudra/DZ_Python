@@ -4,6 +4,6 @@
 
 import random
 
-a = [random.randint(2, 7) for i in range(random.randint(6, 9))]
+a = [random.randint(2, 7) for i in range(random.randint(5, 10))]
 print(a)
 print(sum([a[i] for i in  range(len(a)) if not i % 2]))
